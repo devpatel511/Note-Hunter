@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://devpatel511:Firefox511@cluster0.qw0rsbi.mongodb.net/test", {
+mongoose.connect("mongodb+srv://devpatel511:<password>@cluster0.qw0rsbi.mongodb.net/test", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
